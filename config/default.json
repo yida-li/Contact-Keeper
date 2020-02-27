@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://yida-li:yida0402@cluster0-oshtp.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://yida-li:yida0402@cluster0-oshtp.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
 }
