@@ -1,13 +1,28 @@
- 
+```
 
-	git init
+git init
 
-	git pull https://github.com/yida-li/Contact-Keeper
+git pull https://github.com/yida-li/Contact-Keeper
 
-	cd client
+cd client
 
-	npm i react-script
+npm i react-script
 
-	cd ..
+cd ..
 
-	npm run dev
+npm run dev
+```
+
+.gitignore content
+
+/client/build
+
+.DS_Store
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log\*
