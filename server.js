@@ -12,12 +12,6 @@ connectDB();
 // Initialize middleware
 app.use(express.json({ extended: false }));
 
-app.get('/', (req, res) =>
-  res.json({
-    msg: 'Welcome to the contactkeeper api.....'
-  })
-); // res.send is sending data ok?
-
 //Define my routes
 app.use('/api/users', require('./routes/users'));
 app.use('/api/auth', require('./routes/auth'));
