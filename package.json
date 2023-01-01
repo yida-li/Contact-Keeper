@@ -15,13 +15,13 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "config": "^3.2.6",
+    "config": "^3.3.8",
     "express": "^4.17.1",
     "express-validator": "^6.4.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.2",
     "react-script": "^2.0.5",
-    "react-scripts": "^3.4.0"
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "concurrently": "^5.1.0",
